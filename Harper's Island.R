@@ -1,8 +1,9 @@
-HI_File <- read.csv("C:/Users/iftia/Documents/Data Work/Harper's Island/Harper's Island Views and Rating (csv).csv")
+HI_File <- read.csv("C:/Users/.../.../.../.../.../Harper's Island Views and Rating (csv).csv")
 library(ggplot2)
 pacman::p_load(jpeg, ggplot2, grid) #loads multiple packages at once
-HI_Poster <- jpeg::readJPEG("C:/Users/iftia/Documents/Data Work/Harper's Island/Harper.jpg")
+HI_Poster <- jpeg::readJPEG("C:/.../.../.../.../.../Harper.jpg"
 #Line 4 loads Harper's Island Poster
+#The /.../.../.../... in lines 1 and 4 are just working directories and folders the program needs to go through to find the desired file.
 
 #Harper's Island Rating
 Episode_Rate <- data.frame(Episode = HI_File$Episode, IMDB_Rating = HI_File$IMDB_Rating)
